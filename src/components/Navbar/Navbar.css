@@ -1,0 +1,9 @@
+.bg-body-tertiary{
+    display: flex;
+    position: static;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(235, 181, 248, 0.822) !important;
+}

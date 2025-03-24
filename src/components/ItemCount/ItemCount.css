@@ -1,0 +1,7 @@
+.itmCount{
+    display: flex;
+    width: 10rem;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
