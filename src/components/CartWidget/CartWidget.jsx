@@ -1,9 +1,11 @@
 import React from "react";
+import './CartWidget.css';
 
-const CartWidget = () => {
+function CartWidget({quantity}) {
   return (
     <div>
       🛒
+      <p>{quantity}</p>
     </div>
   );
 };

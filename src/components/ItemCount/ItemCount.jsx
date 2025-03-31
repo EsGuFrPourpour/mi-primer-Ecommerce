@@ -1,29 +1,32 @@
-import { useState } from 'react';
-import './ItemCount.css';
+import "./ItemCount.css"
 
-function ItemCount() {
+function ItemCount({stock, count, setCount}) {
 
-    const [count, setCount] = useState(1);
-    
-    function changeCount(operation){
-        if(operation === "+"){
-            if(count < 9){
-                setCount(count + 1);
-            };
-        }else {
-            if(count > 1){
-                setCount(count - 1);
-            };
-        };
+  function modifyCounter(operation) {
+    if (operation === "+") {
+      if (count < stock) {
+        setCount(count + 1);
+      }
+    } else {
+      if (count > 1) {
+        setCount(count - 1);
+      };
     };
+  };
 
   return (
-    <div className= "itmCount">
-        <button type="button" className="btn btn-outline-primary" onClick={() => changeCount("-")}>-</button>
-        <p id="count">{count}</p>
-        <button type="button" className="btn btn-outline-primary" onClick={() => changeCount("+")}>+</button>
+    <div className="item-count">
+      <div className="item-count-controls">
+        <button onClick={() => modifyCounter("-")}>
+          -
+        </button>
+        <span>{count}</span>
+        <button onClick={() => modifyCounter("+")}>
+          +
+        </button>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default ItemCount;
+export default ItemCount

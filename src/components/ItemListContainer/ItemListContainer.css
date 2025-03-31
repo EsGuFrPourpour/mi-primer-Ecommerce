@@ -9,8 +9,10 @@
 .card{
     display: flex;
     justify-content: space-around;
-    height: 15rem;
 }
 .card-title{
     font-size: x-large;
+}
+.card-img-top{
+    height: 147.8px;
 }
