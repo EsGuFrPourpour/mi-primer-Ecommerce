@@ -17,11 +17,11 @@ function ItemCount({stock, count, setCount}) {
   return (
     <div className="item-count">
       <div className="item-count-controls">
-        <button onClick={() => modifyCounter("-")}>
+        <button className="btn-count" onClick={() => modifyCounter("-")}>
           -
         </button>
-        <span>{count}</span>
-        <button onClick={() => modifyCounter("+")}>
+        <span className="num-count">{count}</span>
+        <button className="btn-count" onClick={() => modifyCounter("+")}>
           +
         </button>
       </div>

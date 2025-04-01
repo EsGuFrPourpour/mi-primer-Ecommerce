@@ -17,7 +17,7 @@ function Item({products, filterProducts}) {
             <p className="card-text">${price}</p>
             <p className="card-text">{stock} disponibles</p>
             <Link to={`/detalle/${id}`}>
-            <button className="btn btn-primary" onClick={() => filterProducts(products) }>Ver detalles</button>
+            <button className="btn btn-secondary">Ver detalles</button>
             </Link>
             <button className="btn btn-secondary" onClick={() => addToCart(products)}>Añadir al carrito</button>
           </div>

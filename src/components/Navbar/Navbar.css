@@ -5,5 +5,9 @@
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: rgba(235, 181, 248, 0.822) !important;
+    background-color: #D4AF37 !important;
+}
+.linkTo{
+    text-decoration: none;
+    color: black;
 }

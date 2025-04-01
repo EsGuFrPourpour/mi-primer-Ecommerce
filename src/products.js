@@ -6,7 +6,7 @@ export const products = [
         stock: 100,
         description: "El último smartphone con características avanzadas y una cámara increíble.",
         img:"https://images.unsplash.com/photo-1585060544812-6b45742d762f?q=80&w=2081&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        category: "electronics",
+        category: "electronica",
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const products = [
         stock: 100,
         description: "Potente laptop para profesionales y gamers con la última tecnología.",
         img: "https://images.unsplash.com/photo-1559163499-413811fb2344?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
-        category: "electronics",
+        category: "electronica",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const products = [
         stock: 1000,
         description: "Auriculares con cancelación de ruido y calidad de sonido premium.",
         img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXVyaWN1bGFyJTIwaW5hbGFtYnJpY298ZW58MHx8MHx8fDA%3D",
-        category: "electronics",
+        category: "electronica",
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const products = [
         stock: 1000,
         description: "Silla de oficina ergonómica para largas horas de trabajo cómodo.",
         img: "https://images.unsplash.com/photo-1688578737279-8df94b290806?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fHNpbGxhJTIwZXJnb25vbWljYXxlbnwwfHwwfHx8MA%3D%3D",
-        category: "furniture",
+        category: "muebles",
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const products = [
         stock: 100,
         description: "Sofá modular que se adapta a cualquier espacio con máxima comodidad.",
         img: "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29mYSUyMG1vZHVsYXJ8ZW58MHx8MHx8fDA%3D",
-        category: "furniture",
+        category: "muebles",
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const products = [
         stock: 1,
         description:  "Camiseta de algodón 100% con diseño moderno y cómodo.",
         img:"https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtaXNldGF8ZW58MHx8MHx8fDA%3D",
-        category: "clothing",
+        category: "ropa",
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const products = [
         stock: 100,
         description: "Jeans duraderos con estilo clásico que nunca pasa de moda.",
         img:"https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amVhbnN8ZW58MHx8MHx8fDA%3D",
-        category: "clothing",
+        category: "ropa",
     },
     {
         id: 8,
@@ -69,6 +69,6 @@ export const products = [
         stock: 100,
         description: "Mesa de centro con diseño minimalista y materiales de alta calidad.",
         img: "https://plus.unsplash.com/premium_photo-1680546330888-f995d2d64571?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lc2ElMjBkZSUyMGNlbnRyb3xlbnwwfHwwfHx8MA%3D%3D",
-        category: "furniture",
+        category: "muebles",
     },
 ]

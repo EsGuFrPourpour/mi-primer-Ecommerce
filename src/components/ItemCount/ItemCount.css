@@ -1,7 +1,15 @@
 .itmCount{
     display: flex;
-    width: 10rem;
-    padding: 2rem;
     justify-content: space-around;
     align-items: center;
+}
+.item-count-controls span{
+    border: 1px, solid;
+    padding: 1px 9px;
+}
+.btn-count{
+    border: 0px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: larger;
 }

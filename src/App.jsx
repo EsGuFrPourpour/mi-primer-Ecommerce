@@ -1,9 +1,8 @@
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount';
 import { BrowserRouter, Route, Routes } from 'react-router';
-import NotFound from './components/NotFound/NotFound';
+import ItemDetail from './components/ItemDetail/ItemDetail';
 
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<ItemListContainer />} />
-      <Route path="/detalles" element= {<p>.</p>} />
-      <Route path="*" element={<NotFound/>} />
+      <Route path="/categoria/:category" element={<ItemListContainer />} />
+      <Route path="/detalle/:id" element= {<ItemDetail />} />
     </Routes>
     </BrowserRouter>
   );

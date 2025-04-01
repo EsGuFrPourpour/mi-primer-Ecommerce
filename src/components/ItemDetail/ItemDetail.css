@@ -1,0 +1,10 @@
+.col-detail{
+    margin-top: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+.card-detail{
+    justify-items: center;
+    width: 50rem;
+    height: 25rem;
+}
