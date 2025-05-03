@@ -4,15 +4,23 @@ import Item from "../Item/Item";
 import Loader from "../Loader/Loader";
 import { fetchData } from "../../fetchData";
 import { useParams } from "react-router";
+import { db } from "../../firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 
 function ItemListContainer() {
   const [loading, setLoading] = useState(true)
   const [allProducts, setAllProducts] = useState(null);
   const {category} = useParams()
+  const productCollection =collection(db,"products")
 
   useEffect(() => {
-      
+    getDocs(productCollection).then(snapshot =>{
+      let arrayOfProducts = snapshot.docs.map(el => el.data());
+      console.log(arrayOfProducts)
+    })
+    .catch(err => console.log(err));  
+
     if(!allProducts){
       fetchData()
       .then(response =>{ 

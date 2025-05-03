@@ -1,13 +1,12 @@
 import { Link } from 'react-router';
 import './Item.css';
+import { useAppContext } from "../../../context/context"
 
 function Item({products, filterProducts}) {
 
     const {id, name, price, stock, img} = products;
 
-    function addToCart(prod){
-      console.log("vas a agregar", {...prod, quantity: 1});
-    };
+    const {addToCart} = useAppContext();
 
     return(
         <div className="col">
@@ -19,7 +18,7 @@ function Item({products, filterProducts}) {
             <Link to={`/detalle/${id}`}>
             <button className="btn btn-secondary">Ver detalles</button>
             </Link>
-            <button className="btn btn-secondary" onClick={() => addToCart(products)}>Añadir al carrito</button>
+            <button className="btn btn-secondary" onClick={() => addToCart(products, 1)}>Añadir al carrito</button>
           </div>
        </div>  
     )

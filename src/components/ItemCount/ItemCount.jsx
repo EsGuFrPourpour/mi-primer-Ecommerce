@@ -20,7 +20,7 @@ function ItemCount({stock, count, setCount}) {
         <button className="btn-count" onClick={() => modifyCounter("-")}>
           -
         </button>
-        <span className="num-count">{count}</span>
+        <span>{count}</span>
         <button className="btn-count" onClick={() => modifyCounter("+")}>
           +
         </button>

@@ -1,0 +1,9 @@
+.cart-widget{
+    text-decoration: none;
+    display: grid;
+    justify-items: center;
+}
+.cart-count{
+    color: black;
+    font-size: 12px;
+}
